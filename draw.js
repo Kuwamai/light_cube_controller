@@ -1,6 +1,10 @@
 var can = document.getElementById("canvas");
 var ctx = can.getContext("2d");
 
+//canvasサイズの変更
+can.width = 400;
+can.height = 400;
+
 var count = 0;//アニメーションカウンター
 var timer = setInterval(function(){
   ctx.fillStyle="rgb(255, 255, 255)"//消去時の色
