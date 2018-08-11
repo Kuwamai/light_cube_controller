@@ -12,7 +12,7 @@ var timer = setInterval(function(){
   ctx.fillStyle="rgb(" + 0 + "," + 0 + "," + count + ")"//塗りつぶし色
   ctx.fillRect(30,30,30,30);
   count++;
-  if(count>200){
+  if(count>249){
     clearInterval(timer);
   }
-},100);
+},20);
