@@ -8,7 +8,7 @@ can.height = window.innerHeight;
 var count = 0;//アニメーションカウンター
 var timer = setInterval(function(){
   ctx.fillStyle="rgb(255, 255, 255)"//消去時の色
-  ctx.clearRect(0,0,300,300);//消去
+  ctx.clearRect(0,0,window.innerWidth,window.innerHeight);//消去
   ctx.fillStyle="rgb(" + 0 + "," + 0 + "," + count + ")"//塗りつぶし色
   //ctx.arc(x, y, radius, startAngle, endAngle, anticlockwise);
   ctx.arc(30, 30, 30, 0, Math.PI*2);
