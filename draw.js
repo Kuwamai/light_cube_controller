@@ -10,7 +10,9 @@ var timer = setInterval(function(){
   ctx.fillStyle="rgb(255, 255, 255)"//消去時の色
   ctx.clearRect(0,0,300,300);//消去
   ctx.fillStyle="rgb(" + 0 + "," + 0 + "," + count + ")"//塗りつぶし色
-  ctx.fillRect(30,30,30,30);
+  //ctx.fillRect(30,30,30,30);
+  ctx.arc(30, 30, 30, 0, Math.PI*2);
+  ctx.fill();
   count++;
   if(count>249){
     clearInterval(timer);
