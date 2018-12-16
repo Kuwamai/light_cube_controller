@@ -24,7 +24,6 @@ var timer = setInterval(function(){
 					//円の描画
 					ctx.beginPath();
 					ctx.arc(radius + l*pitch + 3*j*pitch, radius + k*pitch + 3*i*pitch, radius, 0, Math.PI*2);
-
 					ctx.closePath();
 					//塗りつぶし
 					ctx.fill();
