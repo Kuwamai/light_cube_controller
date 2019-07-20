@@ -1,16 +1,16 @@
 html {
-	overflow: hidden;
-	position: fixed;
+    overflow: hidden;
+    position: fixed;
 }
 
 body {
-	overflow: hidden;
-	height: 100%;
-	width: 100%;
-	margin: 0px;
-	position: fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
 }
 
 #canvas {
-	background:#000;
+    background:#000;
 }
