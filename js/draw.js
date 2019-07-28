@@ -2,11 +2,18 @@ var can = document.getElementById("canvas");
 var ctx = can.getContext("2d");
 
 //canvasサイズの変更
-can.width = window.innerWidth;
-can.height = window.innerHeight;
+(function(){
+    if (window.innerHeight > window.innerWidth) {
+        can.width = window.innerWidth;
+        can.height = window.innerWidth;
+    } else {
+        can.width = window.innerHeight;
+        can.height = window.innerHeight;
+    }
+}());
 
 //円の半径
-var radius = window.innerWidth / (27 * 2 - 1) / 2;
+var radius = can.width / (27 * 2 - 1) / 2;
 //円のピッチ
 var pitch = radius * 4;
 var colors = [];
