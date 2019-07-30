@@ -28,5 +28,6 @@ input {
   color: #ffffff;
   background-color: transparent;
   border: solid 2px #ffffff;
-  border-radius: 5px;
+  border-radius: 30px;
+  font-size: 30px;
 }
