@@ -19,7 +19,7 @@ function wave(){
                         ctx.closePath();
                         //塗りつぶし
                         var color = (Math.sin((cy+count)/8*Math.PI)+1)/2;
-                        if(color < cz/7) color = 0;
+                        if(color < cz/8) color = 0;
                         color = Math.round(color*255);
                         ctx.fillStyle=`rgb(${color},${color},${color})`
                         ctx.fill();
