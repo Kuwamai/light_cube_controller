@@ -22,12 +22,12 @@ div {
 }
 
 input {
-  display: inline-block;
-  padding: 0.3em 1em;
-  text-decoration: none;
-  color: #ffffff;
-  background-color: transparent;
-  border: solid 2px #ffffff;
-  border-radius: 30px;
-  font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    border-radius: 30px;
+    font-size: 30px;
 }
