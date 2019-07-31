@@ -18,7 +18,7 @@ function wave(){
                         ctx.arc(radius + l*pitch + 3*cy*pitch, radius + k*pitch + 3*cx*pitch, radius, 0, Math.PI*2);
                         ctx.closePath();
                         //塗りつぶし
-                        var color = (Math.sin((cy+count)/4*Math.PI)+1)/2;
+                        var color = (Math.sin((cy+count)/8*Math.PI)+1)/2;
                         if(color < cz/7) color = 0;
                         color = Math.round(color*255);
                         ctx.fillStyle=`rgb(${color},${color},${color})`
@@ -28,6 +28,6 @@ function wave(){
             }
         }
         count++;
-        if(count > 7) count = 0;
+        if(count > 16-1) count = 0;
     },100);
 }
