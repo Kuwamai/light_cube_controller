@@ -23,11 +23,12 @@ div {
 
 input {
     display: inline-block;
-    padding: 10px;
+    width: 70px;
+    height: 70px;
     text-decoration: none;
     color: #ffffff;
     background-color: transparent;
-    border: solid 2px #ffffff;
-    border-radius: 30px;
+    border: solid 3px #ffffff;
+    border-radius: 50%;
     font-size: 30px;
 }
