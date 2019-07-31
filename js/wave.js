@@ -12,7 +12,7 @@ function wave(){
             for(var cy = 0; cy < 9; cy++){
                 for(var k = 0; k < 3; k++){
                     for(var l = 0; l < 3; l++){
-                        var cz = 3*k + l;
+                        var cz = 3*(2-k) + (2-l);
                         //円の描画
                         ctx.beginPath();
                         ctx.arc(radius + l*pitch + 3*cy*pitch, radius + k*pitch + 3*cx*pitch, radius, 0, Math.PI*2);
