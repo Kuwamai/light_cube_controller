@@ -10,8 +10,24 @@ body {
     margin: 0px;
     position: fixed;
     background:#000;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #canvas {
     background:#000;
+}
+
+div {
+    text-align:center;
+}
+
+input {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    border-radius: 30px;
+    font-size: 30px;
 }

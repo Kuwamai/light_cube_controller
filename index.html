@@ -4,9 +4,18 @@
         <meta charset="utf-8">
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
     </head>
     <body>
-        <canvas id="canvas"></canvas>
-        <script type="text/javascript" src="js/draw.js"></script>
+        <div>
+        <canvas id="canvas"></canvas><br>
+        <input type="button" value="上" onclick="up()">
+        <input type="button" value="左" onclick="lr()">
+        <input type="button" value="波" onclick="wave()">
+        <script type="text/javascript" src="js/up.js"></script>
+        <script type="text/javascript" src="js/lr.js"></script>
+        <script type="text/javascript" src="js/wave.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+    </div>
     </body>
 </html>

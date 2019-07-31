@@ -3,12 +3,12 @@ var ctx = can.getContext("2d");
 
 //canvasサイズの変更
 (function(){
-    if (window.innerHeight > window.innerWidth) {
+    if (window.innerWidth > 1024) {
+        can.width = 600;
+        can.height = 600;
+    } else {
         can.width = window.innerWidth;
         can.height = window.innerWidth;
-    } else {
-        can.width = window.innerHeight;
-        can.height = window.innerHeight;
     }
 }());
 
