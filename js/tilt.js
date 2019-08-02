@@ -30,7 +30,7 @@ function tilt(){
                         //塗りつぶし
                         cy*Math.tan(gamma)
                         var color = ((cy-4)*Math.tan(gamma*(Math.PI/180))+(cx-4)*Math.tan(beta*(Math.PI/180)))/8+0.5;
-                        (color < cz/8) ? color = 0 : color = 1;
+                        if(color < cz/8) color = 0;
                         color = Math.round(color*255);
                         ctx.fillStyle=`rgb(${color},${color},${color})`
                         ctx.fill();
