@@ -1,4 +1,5 @@
 function tilt(){
+    request_permission();
     stopTimer();
     //アニメーションカウンター
     var count = 0;
